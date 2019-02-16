@@ -1,0 +1,25 @@
+.login-container,
+.register-cointainer {
+  display: none;
+  text-align: left;
+  background: white;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  border-radius: 5px;
+}
+.login-container h1,
+.register-cointainer h1,
+.login-container .button-group,
+.register-cointainer .button-group,
+.login-container .small,
+.register-cointainer .small {
+  text-align: center;
+}
+
+div.small {
+  margin-top: 5px;
+}
+
+.active {
+  display: block;
+}
